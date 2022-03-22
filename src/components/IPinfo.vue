@@ -22,7 +22,12 @@
     <!-- Flex Item 4 -->
     <div class="flex flex-col text-left md:text-center">
       <h3 class="text-xs uppercase">ISP</h3>
-      <span class="text-sm md:text-lg lg:text-2xl">{{ ipData.isp }}</span>
+      <span
+        class="text-sm md:text-lg lg:text-2xl truncate"
+        data-bs-toggle="tooltip"
+        :title="ipData.isp"
+        >{{ ipData.isp }}</span
+      >
     </div>
   </div>
 </template>
