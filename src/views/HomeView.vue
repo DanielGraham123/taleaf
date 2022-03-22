@@ -105,7 +105,7 @@ export default {
 
       leaflet
         .tileLayer(
-          "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGFuaWRldiIsImEiOiJjbDExdXM4bDYwMG16M2ptdmFjMXdhbHlpIn0.xcZOe6I3gmnUyXcVdKJAZQ",
+          "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZGFuaWRldiIsImEiOiJjbDExdW41cXQwYnd1M2Nuc3VneTF6NHp5In0.RNmcryYo9YFYo2_Hxf1qOA",
           {
             attribution:
               'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -114,7 +114,7 @@ export default {
             tileSize: 512,
             zoomOffset: -1,
             accessToken:
-              "pk.eyJ1IjoiZGFuaWRldiIsImEiOiJjbDExdXM4bDYwMG16M2ptdmFjMXdhbHlpIn0.xcZOe6I3gmnUyXcVdKJAZQ",
+              "pk.eyJ1IjoiZGFuaWRldiIsImEiOiJjbDExdW41cXQwYnd1M2Nuc3VneTF6NHp5In0.RNmcryYo9YFYo2_Hxf1qOA",
           }
         )
         .addTo(map);
